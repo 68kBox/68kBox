@@ -1,0 +1,24 @@
+# Build artifacts
+bld/
+cfg/
+*.o
+*.a
+*.exe
+*.app
+minivmac
+setup_t
+setup.sh
+
+# Do not commit ROMs or disk images
+*.rom
+*.ROM
+*.dsk
+*.DSK
+*.img
+*.image
+*.hfv
+*.dc42
+*.toast
+
+# Host clutter
+.DS_Store
